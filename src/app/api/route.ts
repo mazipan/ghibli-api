@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import corsHeader from '~/helpers/corsHeader';
 
 export async function GET(request: Request) {
   return NextResponse.json({
@@ -9,5 +10,7 @@ export async function GET(request: Request) {
       species: "/api/species",
       vehicles: "/api/vehicles",
     }
+  }, {
+    headers: corsHeader
   });
 }
