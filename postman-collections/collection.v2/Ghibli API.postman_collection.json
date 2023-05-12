@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "3a249901-202f-49e4-ba5c-890b5d4b8750",
+		"name": "Ghibli API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "24498470"
+	},
+	"item": [
+		{
+			"name": "GET Films",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ghibli-api.vercel.app/api/films"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Film By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ghibli-api.vercel.app/api/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+			},
+			"response": []
+		},
+		{
+			"name": "GET People",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ghibli-api.vercel.app/api/people"
+			},
+			"response": []
+		},
+		{
+			"name": "GET People By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ghibli-api.vercel.app/api/people/267649ac-fb1b-11eb-9a03-0242ac130003"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Locations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ghibli-api.vercel.app/api/locations"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Locations By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ghibli-api.vercel.app/api/locations/11014596-71b0-4b3e-b8c0-1c4b15f28b9a"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Species",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ghibli-api.vercel.app/api/species"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Species By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ghibli-api.vercel.app/api/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Vehicles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ghibli-api.vercel.app/api/vehicles"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Vehicles By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ghibli-api.vercel.app/api/vehicles/4e09b023-f650-4747-9ab9-eacf14540cfb"
+			},
+			"response": []
+		}
+	]
+}
