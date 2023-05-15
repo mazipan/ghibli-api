@@ -2,8 +2,13 @@
 
 /* eslint-disable @next/next/no-img-element */
 import { IconBrandGithub, IconHeart } from '@tabler/icons-react'
+import dynamic from 'next/dynamic'
 import { useState } from 'react'
-import ReactJson from 'react-json-view'
+
+const ReactJson = dynamic(
+  () => import('react-json-view'),
+  { ssr: false }
+)
 
 export default function Home() {
   const [url, setUrl] = useState("/films");
@@ -23,12 +28,12 @@ export default function Home() {
         <h1 className="text-4xl md:text-5xl font-extrabold text-center text-gray-900 leading-tight">👽 Ghibli API</h1>
         <h2 className="mt-2 text-2xl md:text-3xl font-semibold text-center text-gray-700 leading-tight">The Unofficial GraphQL for PokeAPI</h2>
 
-        <div className="flex mt-6 justify-start md:justify-center xl:justify-start">
+        <div className="flex gap-2 mt-6 justify-start md:justify-center xl:justify-start">
           <a
             target="_blank"
             rel="noopenner noreferrer"
             href="https://trakteer.id/mazipan"
-            className="ml-2 flex gap-2 rounded-lg px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 md:text-lg xl:text-base bg-red-100 text-red-700 shadow-md"
+            className="flex gap-2 rounded-lg px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 md:text-lg xl:text-base bg-red-100 text-red-700 shadow-md"
           >
             <IconHeart /> Support
           </a>
@@ -37,7 +42,7 @@ export default function Home() {
             target="_blank"
             rel="noopenner noreferrer"
             href="https://github.com/mazipan/ghibli-api"
-            className="ml-2 rounded-lg flex gap-2 first-letter:px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 md:text-lg xl:text-base bg-gray-100 text-gray-700 shadow-md">
+            className="flex gap-2 rounded-lg px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 md:text-lg xl:text-base bg-gray-100 text-gray-700 shadow-md">
             <IconBrandGithub /> GitHub
           </a>
 
