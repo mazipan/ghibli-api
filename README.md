@@ -1,6 +1,6 @@
-# 👽 ghibli-api
+# ghibli-api
 
-👽 Unofficial Ghibli Studio API, revived from [janaipakos/ghibliapi](https://github.com/janaipakos/ghibliapi).
+👽 The Unofficial Ghibli Studio API. Revived from [`janaipakos/ghibliapi`](https://github.com/janaipakos/ghibliapi).
 
 ## Base URL
 
