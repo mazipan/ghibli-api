@@ -48,7 +48,7 @@ export default function Home() {
 
         </div>
 
-        <div className="flex mt-2 justify-start md:justify-center xl:justify-start">
+        <div className="flex mt-6 justify-start md:justify-center xl:justify-start">
           {/*
           // eslint-disable-next-line @next/next/no-img-element */}
           <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mazipan/ghibli-api?style=social" />
