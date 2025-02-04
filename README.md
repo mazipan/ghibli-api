@@ -34,6 +34,10 @@
 1. <https://ghibli-api.vercel.app/api/vehicles>
 1. <https://ghibli-api.vercel.app/api/vehicles/4e09b023-f650-4747-9ab9-eacf14540cfb>
 
+## Deploy on Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmazipan%2Fghibli-api)
+
 ---
 
 © 2023, By @mazipan
